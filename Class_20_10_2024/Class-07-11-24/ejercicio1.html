@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de html</title>
+</head>
+<body>
+   <!-- Header es la seccion superior de la pagina y generalmente incluye informacion introductoria 
+    como titulo y el menu de navegacion--> 
+    <header>
+        <!-- h1 siempre va a ser para el titulo principal-->
+        <h1>Bienvenidos a mi sitio web</h1>
+        <!-- menu de navegacion-->
+         <nav>
+            <ul>
+                <li>Sobre mi</li>
+                <li>Intereses</li>
+                <li>Enlaces</li>
+            </ul>
+         </nav>
+    </header>
+
+    <!-- main es la seccion principal que contiene el contenido central de la pagina se recomienda usar main una 
+     sola vez para indicar la parte mas importante del documento -->
+     <main>
+        <section>
+            <h2>Sobre mi</h2>
+            <p>Me llamo Alejandra Garcia, estoy estudiando administracion</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas optio adipisci nobis modi quod facere corrupti, distinctio odio eius sint nisi eveniet quae, 
+                quibusdam aliquam, molestiae laboriosam. Ex, ipsa quam.</p>
+        </section>
+        <section>
+            <h2>Intereses</h2>
+            <ul>
+                <li>Programacion</li>
+                <li>Libros de fantasia</li>
+                <li>Dibujar</li>
+                <li>Videojuegos</li>
+            </ul>
+
+            <!-- figure agrupa contenido visual como imagenes y es comun utilizarla en conjunto con la etiqueta figcaption,
+             que proporciona un titulo o descripcion para el contenido visual-->
+             <figure>
+                <img src="./img/harry.jpg" alt="Hermione, Harry y Ron" width="300">
+                <figcaption>Imagen representativa de mi saga favorita de libros de fantasia</figcaption>
+             </figure>
+             <section>
+                <h2>Enlaces</h2>
+                <p>Visita estos sitios recomendados para aprender desarrollo web</p>
+                <ul>
+                    <!-- a Es una etiqueta de enlaces que generalmente viene acompañada del atributo href donde agregamos la direccion
+                     a la cual queremos redireccionar, otro atributo comunmente utilizado es el de targer que da un control de como se va
+                     abrir el enlace-->
+                    <li>
+                        <a href="https://www.w3schools.com/html/" targent="_blank">w3schools</a>
+
+                    </li>
+                    <li>
+                        <a href="https://developer.mozilla.org/es/" target="_blank">MDM Web Docs</a>
+                    </li>
+                </ul>
+             </section>
+        </section>
+     </main>
+     <footer>
+        <p>&copy; 2024 Garcia Espinosa Alejandra. Todos los derechos reservados.</p>
+     </footer>
+</body>
+</html>
